@@ -1,0 +1,18 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrapper {
+    max-width: calc(100%-320px);
+    margin: 0 auto;
+}
+.header, .content, .footer {
+    border: 1px solid red;
+}
+.header, .footer {
+    height: 19%;
+}
+.conetent {
+    height: 60%;
+}
